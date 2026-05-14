@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InvItem" format=3 uid="uid://cn413ypc1smoe"]
+
+[ext_resource type="Script" uid="uid://dmqdf44biqssw" path="res://inventory/inventory_item.gd" id="1_0btvp"]
+[ext_resource type="Texture2D" uid="uid://df11mrc7obctn" path="res://assets/furca.png" id="2_aw632"]
+
+[resource]
+script = ExtResource("1_0btvp")
+name = " furca"
+texture = ExtResource("2_aw632")
+metadata/_custom_type_script = "uid://dmqdf44biqssw"

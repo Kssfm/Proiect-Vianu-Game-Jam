@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InvItem" format=3 uid="uid://dwxxcsh1ok1sa"]
+
+[ext_resource type="Script" uid="uid://dmqdf44biqssw" path="res://inventory/inventory_item.gd" id="1_ggc3c"]
+[ext_resource type="Texture2D" uid="uid://brlhw4nr4p4qd" path="res://assets/sapa.png" id="2_q0pss"]
+
+[resource]
+script = ExtResource("1_ggc3c")
+name = " Sapa"
+texture = ExtResource("2_q0pss")
+metadata/_custom_type_script = "uid://dmqdf44biqssw"

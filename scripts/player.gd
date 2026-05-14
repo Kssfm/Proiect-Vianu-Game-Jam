@@ -2,6 +2,9 @@ extends CharacterBody2D
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 
+
+@export var inv: Inv
+
 const SPEED = 300.0
 var last_direction: Vector2 = Vector2.RIGHT
 

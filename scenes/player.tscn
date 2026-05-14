@@ -2,6 +2,8 @@
 
 [ext_resource type="Script" uid="uid://cqm6kbrv1ffui" path="res://scripts/player.gd" id="1_4flbx"]
 [ext_resource type="Texture2D" uid="uid://du0jd3ly2fe7s" path="res://icon.svg" id="2_onrkg"]
+[ext_resource type="Resource" uid="uid://csqmytw06stci" path="res://inventory/playerinv.tres" id="2_qhqgy"]
+[ext_resource type="PackedScene" uid="uid://qkilla1drffu" path="res://inventory/inventory_ui.tscn" id="4_dqkch"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]
 atlas = ExtResource("2_onrkg")
@@ -52,11 +54,26 @@ animations = [{
 
 [node name="Player" type="CharacterBody2D" unique_id=1283729955]
 script = ExtResource("1_4flbx")
+inv = ExtResource("2_qhqgy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1866804985]
+position = Vector2(0, 19)
+scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_onrkg")
 animation = &"idle_up"
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=115209036]
 shape = SubResource("CircleShape2D_hqtel")
+
+[node name="Inventory_ui" parent="." unique_id=1854096255 instance=ExtResource("4_dqkch")]
+offset_left = -92.0
+offset_top = -185.0
+offset_right = 91.0
+offset_bottom = -44.0
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=629480084]
+zoom = Vector2(0.8, 0.8)
+limit_left = -1061
+limit_right = 2263
+limit_bottom = 962
