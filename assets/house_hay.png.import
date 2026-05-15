@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr47ux8mj5kvj"
-path="res://.godot/imported/fan_quest.png-ca2c369745c776f67a8dabffdde39d9b.ctex"
+uid="uid://bpw6khisu244e"
+path="res://.godot/imported/house_hay.png-8872253217ee86bc6a3e4d04d7851a02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fan_quest.png"
-dest_files=["res://.godot/imported/fan_quest.png-ca2c369745c776f67a8dabffdde39d9b.ctex"]
+source_file="res://assets/house_hay.png"
+dest_files=["res://.godot/imported/house_hay.png-8872253217ee86bc6a3e4d04d7851a02.ctex"]
 
 [params]
 

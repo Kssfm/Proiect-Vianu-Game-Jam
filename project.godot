@@ -11,7 +11,10 @@ config_version=5
 [application]
 
 config/name="Third game"
+<<<<<<< HEAD
 run/main_scene="uid://hem0rvilbgox"
+=======
+>>>>>>> 3bce8c098ddd8579174255c613dc32f2a146d8a8
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
