@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wpjwdsk51cka"
-path="res://.godot/imported/Ban.png-43c2bf8c8784dcf655b49db690ce4fb7.ctex"
+uid="uid://bi0om1ajtr78h"
+path="res://.godot/imported/well.png-75f91ba747ed3f49cd4a409599f1415b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Ban.png"
-dest_files=["res://.godot/imported/Ban.png-43c2bf8c8784dcf655b49db690ce4fb7.ctex"]
+source_file="res://assets/well.png"
+dest_files=["res://.godot/imported/well.png-75f91ba747ed3f49cd4a409599f1415b.ctex"]
 
 [params]
 
