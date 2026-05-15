@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bipmihflh3fbn"]
+
+[ext_resource type="PackedScene" uid="uid://ub2u4dwi6c13" path="res://scenes/main.tscn" id="1_ig7tw"]
+
+[node name="main" unique_id=1979384328 instance=ExtResource("1_ig7tw")]
+
+[node name="ground" parent="." index="0" unique_id=270396154]
+tile_map_data = PackedByteArray()
+
+[node name="decor" parent="." index="1" unique_id=1400166250]
+tile_map_data = PackedByteArray()

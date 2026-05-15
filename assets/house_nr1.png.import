@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2bdqyk8grs3q"
-path="res://.godot/imported/pamanturi_aliniate.png-8ed02956e013586fb0454812372b60e9.ctex"
+uid="uid://b8ne2xl4fw0ej"
+path="res://.godot/imported/house_nr1.png-8367d0df9921480deb7151db2f1d23ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pamanturi_aliniate.png"
-dest_files=["res://.godot/imported/pamanturi_aliniate.png-8ed02956e013586fb0454812372b60e9.ctex"]
+source_file="res://assets/house_nr1.png"
+dest_files=["res://.godot/imported/house_nr1.png-8367d0df9921480deb7151db2f1d23ea.ctex"]
 
 [params]
 
