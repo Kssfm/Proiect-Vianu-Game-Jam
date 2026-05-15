@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ca6fxq43pnocy"]
 
-[ext_resource type="Texture2D" uid="uid://deyxw0seswhqy" path="res://assets/well.png" id="1_0lbqr"]
+[ext_resource type="Texture2D" uid="uid://cwdbdptwb1ka8" path="res://assets/fan_quest.png" id="1_vcwlr"]
 [ext_resource type="Script" uid="uid://bc31b5svlsen5" path="res://scripts/capita_de_fan.gd" id="2_vcwlr"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vcwlr"]
@@ -8,7 +8,7 @@ radius = 135.05925
 
 [node name="capita_de_fan" type="Sprite2D" unique_id=267791682]
 position = Vector2(5, 2)
-texture = ExtResource("1_0lbqr")
+texture = ExtResource("1_vcwlr")
 script = ExtResource("2_vcwlr")
 
 [node name="pickable_area" type="Area2D" parent="." unique_id=1956321965]
