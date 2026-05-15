@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://brj2ot4ar540h"]
+
+[ext_resource type="Texture2D" uid="uid://du0jd3ly2fe7s" path="res://icon.svg" id="1_8dm1u"]
+[ext_resource type="Script" uid="uid://dvm77xn8j30uy" path="res://scripts/npc_1.gd" id="1_ttshn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ttshn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rga5l"]
+atlas = ExtResource("1_8dm1u")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3w2wa"]
+atlas = ExtResource("1_8dm1u")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xr7qm"]
+atlas = ExtResource("1_8dm1u")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tr1an"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rga5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3w2wa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xr7qm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3nhbe"]
+radius = 45.891174
+
+[node name="npc_1" type="CharacterBody2D" unique_id=1518006480]
+script = ExtResource("1_ttshn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=425351838]
+shape = SubResource("CircleShape2D_ttshn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=180304995]
+position = Vector2(0, 1.000001)
+scale = Vector2(1.59375, 1.75)
+sprite_frames = SubResource("SpriteFrames_tr1an")
+
+[node name="chatd edection" type="Area2D" parent="." unique_id=224621492]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chatd edection" unique_id=1168715281]
+shape = SubResource("CircleShape2D_3nhbe")
+
+[connection signal="body_entered" from="chatd edection" to="." method="_on_chatd_edection_body_entered"]
+[connection signal="body_exited" from="chatd edection" to="." method="_on_chatd_edection_body_exited"]
+[connection signal="body_shape_exited" from="chatd edection" to="." method="_on_chatd_edection_body_shape_exited"]

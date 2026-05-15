@@ -1,0 +1,7 @@
+join npc_1 right
+Baiete, ajuta-ma si pe mine cu ceva..
+Am nevoie de niste bucati de fan..
+Imi aduci si mie?
+- Da.
+	do Global.Start_quest_fan()
+- Nu.
